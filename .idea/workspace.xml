@@ -1,27 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b12d0151-ecc5-4ead-b8b9-8d841b6e0389" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment01062023/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment01062023/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment01062023/RunTimePolyMorphism.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment01062023/SalesDepartment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment01062023/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment01062023/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment01062023/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment01062023/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment02062023/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment02062023/Connectable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment02062023/FinalClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment02062023/Laptop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment02062023/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment02062023/Powerable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment02062023/Question3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment02062023/Vehicle.java" afterDir="false" />
-    </list>
+    <list default="true" id="b12d0151-ecc5-4ead-b8b9-8d841b6e0389" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
