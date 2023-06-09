@@ -6,5 +6,6 @@ public class Main {
         Person p = new Person();
         Male m = new Male();
         m.walk();
+
     }
 }
