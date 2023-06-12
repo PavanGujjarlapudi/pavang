@@ -17,7 +17,15 @@ public class ReadCSV {
             students.add(new Student(temp[0],temp[1],temp[2]));
         }
         br.close();
-        Collections.sort(students);
+        //Collections.sort(students);
+        System.out.println(students);
+        Collections.sort(students, new Comparator<Student>() {
+            @Override
+            public int compare(Student o1, Student o2) {
+                //Ascending order
+                return o1.firstName.compareTo(o2.firstName);
+            }
+        });
         System.out.println(students);
         File file = new File("src/Week2/Day3/updatedStudents.csv");
         FileWriter fw = new FileWriter(file);
