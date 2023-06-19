@@ -1,4 +1,4 @@
-package Week3;
+package Week3.Day1;
 
 public class CustomException extends Exception{
     public CustomException(String message) {
