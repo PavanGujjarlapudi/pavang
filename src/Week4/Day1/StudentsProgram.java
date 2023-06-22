@@ -2,6 +2,7 @@ package Week4.Day1;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Predicate;
 
 public class StudentsProgram {
     public static void main(String[] args) {
@@ -18,11 +19,15 @@ public class StudentsProgram {
         }
         avg=avg/list.size();
         System.out.println("Avg" + avg);
-        for (int i = 0; i < list.size(); i++) {
+        /*for (int i = 0; i < list.size(); i++) {
             if (list.get(i).getGPA()<avg){
                 list.remove(i);
             }
-        }
+        }*/
+        double finalAvg = avg;
+        Predicate<Student> predicate = (Student GPA)->(GPA.getGPA()< finalAvg);
+        list.removeIf(predicate);
+        //list.stream().filter(student -> student.getGPA()<avg).
         for (Student s:list) {
             System.out.println(s);
         }
